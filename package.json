@@ -4,7 +4,8 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,7 +13,9 @@
     "express": "^4.16.4",
     "express-fileupload": "^1.4.0",
     "lodash": "^4.17.21",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   },
   "repository": {
